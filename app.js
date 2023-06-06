@@ -17,7 +17,7 @@ fs.mkdir(path.join(__dirname, 'mainPage'), (err) => {
             if (err) throw new Error(err.message)
             files.forEach(i => {
                 if (i.isFile()) {
-                    console.log(`${i} is FIle!`)
+                    console.log(`${i } is FIle!`)
                 }
                 if (i.isDirectory()) {
                     console.log(`${i} is Folder!`)
